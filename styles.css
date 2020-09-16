@@ -1,0 +1,39 @@
+.top-section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.login-link {
+    align-self: flex-end;
+
+}
+
+.free-trial-button {
+    height: 40px;
+    width: 200px;
+   align-self: center;
+    /*this broke the flex box*/
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ribbon-bundle {
+    display: flexbox;
+    justify-content: space-between;
+    flex-direction: column;
+}
