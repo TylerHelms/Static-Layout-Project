@@ -16,24 +16,40 @@
 
 .free-trial-button {
     height: 40px;
-    width: 200px;
+    width: 300px;
    align-self: center;
     /*this broke the flex box*/
 }
 
 .row{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    
 }
 
 .banner {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    background: linear-gradient(270deg, #0F495C 0%, #08141F 100%);
 }
 
-.ribbon-bundle {
-    display: flexbox;
-    justify-content: space-between;
+.banner-image {
+    height: 50px;
+}
+
+.middle-column {
+    display: flex;
     flex-direction: column;
+    
+}
+
+.third-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-fit {
+    max-width: 100%;
+    height: auto;
 }
