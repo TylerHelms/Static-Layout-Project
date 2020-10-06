@@ -11,6 +11,15 @@ body{
     flex-direction: column;
 }
 
+.top-height {
+    height: 80vh;
+}
+
+.top-pic{
+    background-image: url("./assets/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg");
+    background-size: cover;
+}
+
 .center-text {
     text-align: center;
 }
@@ -20,8 +29,9 @@ body{
     text-transform: uppercase;
     color: white;
     letter-spacing: 1px;
-
-
+    text-decoration: none;
+    margin: 30px 30px 100px 0px;
+    font-weight: 600;
 
 }
 
@@ -43,7 +53,7 @@ body{
 .banner {
     background: linear-gradient(270deg, #0F495C 0%, #08141F 100%);
     height: 150px;
-    padding: 0px 20px; 
+    padding: 0px 40px; 
 }
 
 .banner-image {
@@ -54,6 +64,7 @@ body{
 .middle-column {
     display: flex;
     flex-direction: column;
+    
     
 }
 
@@ -102,6 +113,7 @@ body{
     line-height: 32px;
     font-size: 24px;
     font-weight: 400;
+    margin: 10px 0px;
 }
 
 .moreDetails{
@@ -130,5 +142,25 @@ body{
     line-height: 24px;
     opacity: 0.7;
     text-align: center;
+}
+
+.freeTrial{
+    border-radius: 4px;
+    padding: 20px 0px;
+    background: #fff;
+    height: 56px;
+    letter-spacing: 1px;
+    width: 260px;
+    margin-bottom: 20px;
+    line-height: 10px;
+    border: none;
+}
+
+.trialButton {
+    text-transform: uppercase;
+    color: #040505;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
